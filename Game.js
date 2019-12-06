@@ -276,7 +276,7 @@ var Game = {
 				context.fillStyle = '#06ba12';
 				context.fillText(playercount, boxX + 430, boxY) 
 				context.fillStyle = '#06ba12';
-				context.fillText('SPACE TO START', boxX + 40, boxY + 60);
+				context.fillText('SPACE TO START', boxX + 40, boxY + 60); 
 			}
 			else {
 				context.fillStyle = '#06ba12';
@@ -453,7 +453,7 @@ var Game = {
 			}
 			else {
 				if (playerAt.id == 2)
-					context.fillStyle = '#FFFFFF';
+					context.fillStyle = '#a31515';
 				else
 					context.fillStyle = '#06ba12';
 				context.fillRect(playerAt.x, playerAt.y, playerAt.width, playerAt.height);
