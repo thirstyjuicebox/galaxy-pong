@@ -435,7 +435,7 @@ var Game = {
 		context.clearRect(0, 0, canvas.width, canvas.height);
 
 		//draw background
-		context.fillStyle = '#000000';
+		context.fillStyle = '#ebeded';
 		context.fillRect(0, 0, canvas.width, canvas.height);
 
 		//set the color of the fillStyle to white
